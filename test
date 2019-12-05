@@ -1,4 +1,4 @@
-test
+test2
 # клонировать удаленный репозиторий в одноименную директорию
 git clone https://github.com/cyberspacedk/Git-commands.git    
 

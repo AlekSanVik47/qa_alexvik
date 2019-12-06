@@ -1,4 +1,4 @@
-test
+test2
 # клонировать удаленный репозиторий в одноименную директорию
 git clone https://github.com/cyberspacedk/Git-commands.git    
 
@@ -6,8 +6,17 @@ git clone https://github.com/cyberspacedk/Git-commands.git
 git clone https://github.com/cyberspacedk/Git-commands.git FolderName 
 
 # клонировать репозиторий в текущую директорию
+<<<<<<< HEAD
 git clone https://github.com:nicothin/web-design.git .           
 
 git checkout text.txt      # ОПАСНО: отменить изменения в файле, вернуть состояние файла, имеющееся в индексе
 git reset --hard           # ОПАСНО: отменить изменения; вернуть то, что в коммите, на который указывает HEAD (незакомиченные изменения удалены из индекса и из рабочей директории, неотслеживаемые файлы останутся на месте)
 git clean -df              # удалить неотслеживаемые файлы и директории
+=======
+git clone https://github.com:nicothin/web-design.git .  
+
+
+MySQl
+
+SELECT <список полей> FROM <список названий таблиц> [WHERE <список условий>] [ORDER BY <список полей>]         
+>>>>>>> Newbranch1

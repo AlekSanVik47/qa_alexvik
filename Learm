@@ -1,0 +1,127 @@
+{
+  "branches": {
+    "master": {
+      "remoteTrackingBranchID": "o/master",
+      "remote": false,
+      "target": "C4",
+      "id": "master",
+      "type": "branch"
+    },
+    "o/master": {
+      "remoteTrackingBranchID": null,
+      "remote": false,
+      "target": "C1",
+      "id": "o/master",
+      "type": "branch"
+    },
+    "o/bar": {
+      "remoteTrackingBranchID": null,
+      "remote": false,
+      "target": "C1",
+      "id": "o/bar",
+      "type": "branch"
+    }
+  },
+  "commits": {
+    "C0": {
+      "type": "commit",
+      "parents": [],
+      "author": "Peter Cottle",
+      "createTime": "Sun Dec 08 2019 19:07:46 GMT+0400 (GMT+04:00)",
+      "commitMessage": "Быстрый коммит. А надо!",
+      "id": "C0",
+      "rootCommit": true
+    },
+    "C1": {
+      "type": "commit",
+      "parents": [
+        "C0"
+      ],
+      "author": "Peter Cottle",
+      "createTime": "Sun Dec 08 2019 19:07:46 GMT+0400 (GMT+04:00)",
+      "commitMessage": "Быстрый коммит. А надо!",
+      "id": "C1"
+    },
+    "C4": {
+      "type": "commit",
+      "parents": [
+        "C1"
+      ],
+      "author": "Peter Cottle",
+      "createTime": "Sun Dec 08 2019 19:07:46 GMT+0400 (GMT+04:00)",
+      "commitMessage": "Быстрый коммит. А надо!",
+      "id": "C4"
+    }
+  },
+  "tags": {},
+  "HEAD": {
+    "target": "master",
+    "id": "HEAD",
+    "type": "general ref"
+  },
+  "originTree": {
+    "branches": {
+      "master": {
+        "remoteTrackingBranchID": null,
+        "remote": false,
+        "target": "C2",
+        "id": "master",
+        "type": "branch"
+      },
+      "bar": {
+        "remoteTrackingBranchID": null,
+        "remote": false,
+        "target": "C3",
+        "id": "bar",
+        "type": "branch"
+      }
+    },
+    "commits": {
+      "C0": {
+        "type": "commit",
+        "parents": [],
+        "author": "Peter Cottle",
+        "createTime": "Sun Dec 08 2019 19:07:46 GMT+0400 (GMT+04:00)",
+        "commitMessage": "Быстрый коммит. А надо!",
+        "id": "C0",
+        "rootCommit": true
+      },
+      "C1": {
+        "type": "commit",
+        "parents": [
+          "C0"
+        ],
+        "author": "Peter Cottle",
+        "createTime": "Sun Dec 08 2019 19:07:46 GMT+0400 (GMT+04:00)",
+        "commitMessage": "Быстрый коммит. А надо!",
+        "id": "C1"
+      },
+      "C2": {
+        "type": "commit",
+        "parents": [
+          "C1"
+        ],
+        "author": "Peter Cottle",
+        "createTime": "Sun Dec 08 2019 19:07:46 GMT+0400 (GMT+04:00)",
+        "commitMessage": "Быстрый коммит. А надо!",
+        "id": "C2"
+      },
+      "C3": {
+        "type": "commit",
+        "parents": [
+          "C1"
+        ],
+        "author": "Peter Cottle",
+        "createTime": "Sun Dec 08 2019 19:07:46 GMT+0400 (GMT+04:00)",
+        "commitMessage": "Быстрый коммит. А надо!",
+        "id": "C3"
+      }
+    },
+    "tags": {},
+    "HEAD": {
+      "target": "bar",
+      "id": "HEAD",
+      "type": "general ref"
+    }
+  }
+}

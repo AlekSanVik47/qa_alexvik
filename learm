@@ -1,0 +1,38 @@
+{
+  "branches": {
+    "master": {
+      "remoteTrackingBranchID": null,
+      "remote": false,
+      "target": "C1",
+      "id": "master",
+      "type": "branch"
+    }
+  },
+  "commits": {
+    "C0": {
+      "type": "commit",
+      "parents": [],
+      "author": "Peter Cottle",
+      "createTime": "Wed Dec 11 2019 21:45:33 GMT+0400 (GMT+04:00)",
+      "commitMessage": "Быстрый коммит. А надо!",
+      "id": "C0",
+      "rootCommit": true
+    },
+    "C1": {
+      "type": "commit",
+      "parents": [
+        "C0"
+      ],
+      "author": "Peter Cottle",
+      "createTime": "Wed Dec 11 2019 21:45:33 GMT+0400 (GMT+04:00)",
+      "commitMessage": "Быстрый коммит. А надо!",
+      "id": "C1"
+    }
+  },
+  "tags": {},
+  "HEAD": {
+    "id": "HEAD",
+    "target": "master",
+    "type": "general ref"
+  }
+}

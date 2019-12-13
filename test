@@ -2,6 +2,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 test2
 # клонировать удаленный репозиторий в одноименную директорию
 git clone https://github.com/cyberspacedk/Git-commands.git    
@@ -20,6 +21,9 @@ SELECT <список полей> FROM <список названий табли�
 test
 >>>>>>> parent of cdfc449... my 1 commit clon repo
 =======
+=======
+test
+>>>>>>> parent of cdfc449... my 1 cjmmit clon repo
 =======
 test
 >>>>>>> parent of cdfc449... my 1 cjmmit clon repo
